@@ -1,0 +1,46 @@
+schema_version: 1
+
+# ----------------------------------------------------------------------
+# EDIT ME — replace the placeholder values with your district's info.
+# Anything inside quotes is what visitors will see on the website.
+# ----------------------------------------------------------------------
+site:
+  name: "Your School District"
+  short_name: "YSD"
+  # If you want a custom domain (e.g. boards.yourdistrict.org), set
+  # both `url` and clear `base_url`. If you're publishing under
+  # https://<your-github-username>.github.io/<this-repo-name>/, set
+  # base_url to "/<this-repo-name>" instead.
+  url: ""
+  base_url: ""
+  description: "Board agendas, minutes, and policies for Your School District."
+  repo_url: https://github.com/REPLACE_ME/REPLACE_ME
+  edit_base_url: https://github.com/REPLACE_ME/REPLACE_ME/edit/main
+
+nav:
+  - { text: About Us, url: "/" }
+  - { text: Meetings, url: "/meetings/" }
+  - { text: Policies, url: "/policies/" }
+
+footer:
+  strategic_plan_goals:
+    - Success for All
+    - Safe, Healthy, and Caring Environment
+    - Effective and Efficient Operations
+  mission_statement: >
+    Replace this with your district's mission statement.
+  vision_statement: >
+    Replace this with your district's vision statement.
+  we_value:
+    - Students
+    - Trust, Kindness, and Respect
+
+theme:
+  name: default
+
+content:
+  meetings_dir: content/meetings
+  policies_dir: content/policies
+  data_dir: data
+
+output_dir: _site
