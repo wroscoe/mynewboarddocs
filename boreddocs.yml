@@ -12,7 +12,7 @@ site:
   # https://<your-github-username>.github.io/<this-repo-name>/, set
   # base_url to "/<this-repo-name>" instead.
   url: ""
-  base_url: ""
+  base_url: "/mynewboarddocs"
   description: "Board agendas, minutes, and policies for Your School District."
   repo_url: https://github.com/REPLACE_ME/REPLACE_ME
   edit_base_url: https://github.com/REPLACE_ME/REPLACE_ME/edit/main
